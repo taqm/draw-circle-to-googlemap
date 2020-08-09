@@ -12,3 +12,23 @@ html, body {
   height: 100vh;
 }
 
+.context-menu {
+  position: absolute;
+  min-width: 200px;
+  display: none;
+}
+
+.context-menu[data-active="true"] {
+  display: block;
+}
+
+.context-menu__item {
+  padding: 10px 5px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.context-menu__item:hover {
+  background-color: rgba(235, 235, 235, 0.9);
+}
+
